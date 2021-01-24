@@ -17,11 +17,15 @@ struct ContentView: View {
         List(store.tasks) { task in
             taskCell(task: task)
         }
+        .navigationTitle("Reminders")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(store: testStore)
+        NavigationView {
+            ContentView(store: testStore)
+        }
+        
     }
 }
