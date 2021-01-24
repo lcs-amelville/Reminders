@@ -18,6 +18,8 @@
 		CB25011325BCB329003EA4F7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25011225BCB329003EA4F7 /* Task.swift */; };
 		CB25011925BCB457003EA4F7 /* TaskPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25011825BCB457003EA4F7 /* TaskPriority.swift */; };
 		CB25011D25BCB4EB003EA4F7 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25011C25BCB4EB003EA4F7 /* TaskStore.swift */; };
+		CBB4855D25BDFD3900D9DD30 /* addTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB4855C25BDFD3900D9DD30 /* addTask.swift */; };
+		CBB4855E25BDFD3900D9DD30 /* addTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB4855C25BDFD3900D9DD30 /* addTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,7 @@
 		CB25011225BCB329003EA4F7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		CB25011825BCB457003EA4F7 /* TaskPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPriority.swift; sourceTree = "<group>"; };
 		CB25011C25BCB4EB003EA4F7 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		CBB4855C25BDFD3900D9DD30 /* addTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 			children = (
 				CB2500EE25BCB25F003EA4F7 /* ContentView.swift */,
 				CB1D4C9025BD0EB0004A6861 /* taskCell.swift */,
+				CBB4855C25BDFD3900D9DD30 /* addTask.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,6 +224,7 @@
 				CB25011D25BCB4EB003EA4F7 /* TaskStore.swift in Sources */,
 				CB25010225BCB263003EA4F7 /* ContentView.swift in Sources */,
 				CB25011325BCB329003EA4F7 /* Task.swift in Sources */,
+				CBB4855D25BDFD3900D9DD30 /* addTask.swift in Sources */,
 				CB25011925BCB457003EA4F7 /* TaskPriority.swift in Sources */,
 				CB25010025BCB263003EA4F7 /* RemindersApp.swift in Sources */,
 			);
@@ -229,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB4855E25BDFD3900D9DD30 /* addTask.swift in Sources */,
 				CB1D4C9225BD0EB0004A6861 /* taskCell.swift in Sources */,
 				CB25010325BCB263003EA4F7 /* ContentView.swift in Sources */,
 				CB25010125BCB263003EA4F7 /* RemindersApp.swift in Sources */,
