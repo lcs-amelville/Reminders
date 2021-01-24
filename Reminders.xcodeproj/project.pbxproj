@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB1D4C9125BD0EB0004A6861 /* taskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1D4C9025BD0EB0004A6861 /* taskCell.swift */; };
+		CB1D4C9225BD0EB0004A6861 /* taskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1D4C9025BD0EB0004A6861 /* taskCell.swift */; };
 		CB25010025BCB263003EA4F7 /* RemindersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2500ED25BCB25F003EA4F7 /* RemindersApp.swift */; };
 		CB25010125BCB263003EA4F7 /* RemindersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2500ED25BCB25F003EA4F7 /* RemindersApp.swift */; };
 		CB25010225BCB263003EA4F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2500EE25BCB25F003EA4F7 /* ContentView.swift */; };
@@ -19,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB1D4C9025BD0EB0004A6861 /* taskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskCell.swift; sourceTree = "<group>"; };
 		CB2500ED25BCB25F003EA4F7 /* RemindersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersApp.swift; sourceTree = "<group>"; };
 		CB2500EE25BCB25F003EA4F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB2500EF25BCB263003EA4F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,9 +66,9 @@
 		CB2500EC25BCB25F003EA4F7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				CB2500ED25BCB25F003EA4F7 /* RemindersApp.swift */,
 				CB25011125BCB29E003EA4F7 /* Model */,
 				CB25011025BCB298003EA4F7 /* Views */,
-				CB2500ED25BCB25F003EA4F7 /* RemindersApp.swift */,
 				CB2500EF25BCB263003EA4F7 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -101,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				CB2500EE25BCB25F003EA4F7 /* ContentView.swift */,
+				CB1D4C9025BD0EB0004A6861 /* taskCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -212,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB1D4C9125BD0EB0004A6861 /* taskCell.swift in Sources */,
 				CB25011D25BCB4EB003EA4F7 /* TaskStore.swift in Sources */,
 				CB25010225BCB263003EA4F7 /* ContentView.swift in Sources */,
 				CB25011325BCB329003EA4F7 /* Task.swift in Sources */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB1D4C9225BD0EB0004A6861 /* taskCell.swift in Sources */,
 				CB25010325BCB263003EA4F7 /* ContentView.swift in Sources */,
 				CB25010125BCB263003EA4F7 /* RemindersApp.swift in Sources */,
 			);
