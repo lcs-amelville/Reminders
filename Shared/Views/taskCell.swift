@@ -9,7 +9,7 @@ import SwiftUI
 
 struct taskCell: View {
     
-    var task: Task
+   @ObservedObject var task: Task
     
     var body: some View {
         HStack {
@@ -20,11 +20,12 @@ struct taskCell: View {
                     task.completed.toggle()
                     print("just toggled")
                 }
-            
+        }
+
             Text(task.description)
         }
     }
-}
+
 
 struct taskCell_Previews: PreviewProvider {
     static var previews: some View {
